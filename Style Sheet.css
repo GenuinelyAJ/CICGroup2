@@ -1,0 +1,232 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url('Images/Emirates.jpg');
+	background-size: cover;
+	background-position: center;
+	font-family: Tahoma, sans-serif;
+}
+header{
+	background-color: #1a1619;
+ 	padding: 6px 24px;
+ 	text-align: left;
+ 	color: white;
+ 	font-family: Caption, monospace;
+}
+
+.menu-pick{
+	background: black;
+	text-align: left;
+	z-index: 500;
+}
+.menu-pick ul{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+}
+.menu-pick ul li{
+	width: 100px;
+	padding: 10px;
+	margin: 15px;
+}
+.menu-pick ul li a{
+	text-decoration: none;
+	color: white;
+}
+.active{
+	background: gray;
+	border-radius: 5px;
+}
+ .menu-pick ul li:hover{
+	background: gray;
+	border-radius: 5px;
+
+}
+.image{
+	width: 400px;
+	height: 487px;
+}
+.picture{
+   	max-width: 50%;
+    margin: 10px;
+    padding:10px;
+    top: 20px;
+    float: right;
+}
+.main-head{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	color: white;
+	transform: translate(-50%,-50%);
+	font-size: 20px;
+}
+.sticky{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+.dark{
+	filter: brightness(50%);
+}
+.shop{
+	top: 60%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	font-size: 21px;
+	color: white;
+}
+.button{
+	border: 1px solid;
+	border-radius: 25px;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none
+}
+.button:hover{
+	background-color: #1a1619;
+	color: white;
+}
+.text{
+    margin: 10px;
+    padding: 20px;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 20px;
+}
+footer{
+    position: static;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #1a1619;
+ 	padding: 6px 24px;
+ 	text-align: left;
+ 	color: white;
+}
+#heading {
+ 	line-height:100px;
+}
+#text-head{
+	line-height: 30px;
+}
+.image-line{
+	padding: 20px;
+}
+.news-letter{
+	background-color: white;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 20px;
+}
+#video{
+	display: block;
+  	margin: auto;
+  	margin-bottom: 20px;
+}
+.container{
+	background-color: black;
+	padding-bottom: 64px;
+}
+.footer{
+	width: 80%;
+	height: 120px;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+.footer-heading{
+	display: flex;
+	flex-direction: column;
+	margin-right: 64px;
+}
+.footer-heading h2{
+	margin-bottom: 32px;
+}
+.footer-heading a{
+	color: white;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+.footer-heading a:hover{
+	color: gray;
+}
+.card{
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  	max-width: 250px;
+  	margin: 20px;
+  	text-align: center;
+  	font-family: arial;
+  	color: black;
+  	background-color: white;
+  	margin-bottom: 50px;
+  	float: left;
+  	border: none;
+	border-radius: 5px;
+}
+.price{
+  	color: grey;
+  	font-size: 22px;
+}
+.card button{
+  	border: none;
+  	border-radius: 10px;
+  	outline: 0;
+  	padding: 10px;
+  	color: white;
+  	background-color: #1a1619;
+  	text-align: center;
+  	width: 100%;
+  	font-size: 18px;
+}
+.card button:hover{
+  opacity: 0.7;
+}
+.collection{
+	background-color: black;
+}
+#collection{
+	padding: 20px;
+	color: white;
+}
+.aboutus{
+	color: black;
+	background-color: white;
+  	width: 100%;
+  	margin: auto;
+  	padding: 10px 25px;
+  	font-size: 15px;
+  	float: left;
+}
+.newscard{
+  	max-width: 300px;
+  	margin: 10px;
+  	text-align: center;
+  	font-family: arial;
+  	color: black;
+  	background-color: lightgrey;
+  	margin-bottom: 50px;
+  	float: left;
+  	border: none;
+	border-radius: 5px;
+}
+.newscard h2{
+	color: black;
+	text-align: left;
+	padding: 10px;
+}
+.newscard p{
+	color: black;
+	text-align: left;
+	padding: 10px;
+}
